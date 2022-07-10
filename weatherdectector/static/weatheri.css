@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+        
+        html, body{
+            height: 100%;
+        }
+        
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            background-image: url('https://pixy.org/src/471/4717513.jpg');
+            display: grid;
+            place-items: center;
+            
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            margin-bottom: 170px;
+            font-size: 17px;
+            border: 1px solid rgba(128, 128, 128, 0);
+            float: left;
+            width: 80%;
+            background: #f1f1f100;
+          }
+          
+          form.example button {
+            float: left;
+            width: 20%;
+            padding: 11.5px;
+            background: #00040700;
+            color: white;
+            font-size: 17px;
+            border: 1px solid rgba(128, 128, 128, 0);
+            border-left: none;
+            cursor: pointer;
+          }
+          
+          form.example button:hover {
+            background: #ffffff60;
+          }
+          
+          form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+        
+        .card {
+            background-color: #ffffff;
+            border-radius: 50px;
+            padding: 50px 100px;
+            color: #6f707d;
+            font-family: 'Marcellus', serif;
+        }
+        
+        #heading{
+            font-size: 55px;    
+            color: #2b304d;
+        }
+        
+        .temp{
+            place-items: center;
+        }
+        
+        .temp-details > p >span, .grey{
+            color: #a3acc1;
+            font-size: 12px;
+        }
+        
+        .fa{
+            color: #a5a5b1
+        }
+        
+         *:focus{
+            outline: none;
+        }
